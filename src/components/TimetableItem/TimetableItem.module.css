@@ -1,0 +1,33 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px 0;
+}
+
+.dayName {
+  display: flex;
+  align-items: center;
+}
+
+.day {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.today {
+  font-weight: 700;
+  font-size: 12px;
+  color: #5bcb02;
+  padding-left: 10px;
+}
+
+.period {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.closed {
+  color: #a1a2a4;
+}
